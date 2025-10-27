@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Minimal custom styles */
+:root {
+  --bg: #f8fafc;
+}
+
+body {
+  @apply bg-slate-50 text-slate-800;
+}
+
+code {
+  @apply bg-slate-100 px-1 rounded text-sm;
+}
